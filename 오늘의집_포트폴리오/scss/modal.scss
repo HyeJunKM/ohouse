@@ -1,0 +1,35 @@
+#wrap {
+  width: 100%;
+  #modal {
+    width: 100%; height: 50px;
+    .container {
+      display: flex; justify-content: center; width: 100%; height: 50px;
+      .modal1 {
+        width: 50%; height: 100%; background-color: #046dfc; position: relative;
+        .img-box1 {
+          width: 578px; height: 100%; position: absolute; top: 0; right: 0;
+          a {
+            width: 100%; display: flex; justify-content: center;
+            img {width: 66%;}
+          }
+        }
+      }
+      .modal2 {
+        width: 50%; height: 100%; background-color: #00bbff; position: relative;
+        .img-box2 {
+          width: 578px; height: 100%; position: absolute; top: 0; left: 0;
+          a {
+            width: 100%; display: flex; justify-content: center;
+            img {width: 66%;}
+          }
+        }
+      }
+      button {
+        position: absolute; top: 0; right: 0; width: 48px; height: 48px; z-index: 2; border: 0; background: none; cursor: pointer;
+        margin: 0 10px 0 0;
+        img {width: 66%;}
+      }
+    }
+  }
+}
+

@@ -1,0 +1,158 @@
+@import url("../../../../css/fonts.css");
+@import url("../../../../css/reset.css");
+#skip {
+  display: none;
+}
+
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+  padding: 40px 0;
+}
+#wrap #main #login {
+  width: 100%;
+}
+#wrap #main #login .container {
+  width: 300px;
+  margin: 0 auto;
+}
+#wrap #main #login .container .title {
+  width: 300px;
+  height: 51px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #main #login .container .title a {
+  display: block;
+}
+#wrap #main #login .container .title a img {
+  width: 130px;
+  height: 50px;
+}
+#wrap #main #login .container .content {
+  width: 100%;
+}
+#wrap #main #login .container .content form ul {
+  width: 100%;
+}
+#wrap #main #login .container .content form ul li {
+  width: 100%;
+}
+#wrap #main #login .container .content form ul li input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ddd;
+  padding: 0 15px;
+  background: #fff;
+  color: #444;
+  font-size: 14px;
+  border-radius: 5px;
+  outline-offset: -1px;
+  outline: 1px solid transparent;
+  transition: all 0.3s;
+}
+#wrap #main #login .container .content form ul li input:focus {
+  outline: 1px solid #35c5f0;
+}
+#wrap #main #login .container .content form ul li input::-moz-placeholder {
+  color: #aaa;
+}
+#wrap #main #login .container .content form ul li input:-ms-input-placeholder {
+  color: #aaa;
+}
+#wrap #main #login .container .content form ul li input::placeholder {
+  color: #aaa;
+}
+#wrap #main #login .container .content form ul li button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #35c5f0;
+  margin: 20px 0;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+}
+#wrap #main #login .container .content form ul li button.login-btn {
+  background: #35c5f0;
+  color: #fff;
+}
+#wrap #main #login .container .content form ul li span {
+  font-size: 15px;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+}
+#wrap #main #login .container .content form ul li span .join-btn {
+  margin-left: 20px;
+}
+#wrap #main #login .container .content form ul li p {
+  margin: 35px 0 15px 0;
+  color: #757575;
+  font-size: 12px;
+  text-align: center;
+  line-height: 133%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#wrap #main #login .container .content form ul li .img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #main #login .container .content form ul li .img-box img {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+#wrap #main #login .container .content form ul li .img-box img:hover {
+  opacity: 0.8;
+}
+#wrap #main #login .container .content form ul li .img-box img:last-child {
+  margin-right: 0;
+}
+#wrap #main #login .container .content form ul li em {
+  margin-top: 24px;
+  color: #c2c8cc;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#wrap #main #login .container .content form ul li h5 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #dbdbdb;
+  font-size: 15px;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#wrap #footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #footer span {
+  color: rgb(117, 117, 117);
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 25px;
+}

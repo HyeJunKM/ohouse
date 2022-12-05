@@ -1,0 +1,136 @@
+@charset "UTF-8";
+//공용 스타일을 루트 css 폴더와 연결
+@import './_config.scss';
+@import url('#{$path}fonts.css');
+@import url('#{$path}reset.css');
+@import url('#{$path}modal.css');
+@import url('#{$path}header.css');
+@import url('#{$path}footer.css');
+
+#skip {display: none;}
+#wrap {
+  width: 100%; position: relative;
+  #main {
+    width: 100%; background-color: rgb(247, 249, 250); padding: 80px 0 40px 0;
+    #section1 {
+      width: 750px; margin: 0 auto; padding-bottom: 20px;
+      .row1 {
+        display: flex;
+        .left {
+          .box1 {
+            width: 367px; height: 302px; background-color: #fff; border: 1px solid #ededed; border-radius: 15px; position: relative;
+            a {
+              display: block; padding: 16px;
+              h1 {font-size: 20px; font-weight: 700; line-height: 28px;}
+              p {margin-top: 4px; font-size: 14px; line-height: 20px; color: rgb(130, 140, 148);}
+              img {width: 40px; height: 40px; position: absolute; bottom: 10px; right: 10px;}
+            }
+          }
+        }
+        .right {
+          margin-left: 16px;
+          .box2 {
+            width: 367px; height: 143px; background-color: #fff; border: 1px solid #ededed; border-radius: 15px; position: relative;
+            a {
+              display: block; padding: 16px;
+              h1 {font-size: 20px; font-weight: 700; line-height: 28px;}
+              p {margin-top: 4px; font-size: 14px; line-height: 20px; color: rgb(130, 140, 148);}
+              img {width: 40px; height: 40px; position: absolute; bottom: 10px; right: 10px;}
+            }
+          }
+          .box3 {
+            width: 367px; height: 143px; margin-top: 16px; background-color: #fff; border: 1px solid #ededed; border-radius: 15px; position: relative;
+            a {
+              display: block; padding: 16px;
+              h1 {font-size: 20px; font-weight: 700; line-height: 28px;}
+              p {margin-top: 4px; font-size: 14px; line-height: 20px; color: rgb(130, 140, 148);}
+              img {width: 40px; height: 40px; position: absolute; bottom: 10px; right: 10px;}
+            }
+          }
+        }
+      }
+      .row2 {
+        margin-top: 16px;
+        .box4 {
+          width: 750px; height: 119px; background-color: #fff; border: 1px solid #ededed; border-radius: 15px; position: relative;
+          a {
+            display: block; padding: 16px;
+            h1 {
+              font-size: 20px; font-weight: 700; line-height: 28px;
+              span {
+                font-size: 6px; width: 20px; height: 20px; color: #fff; background-color: rgb(255, 119, 119); 
+                border-radius: 10px; padding: 2px 5px; margin-left: 5px; vertical-align: middle;
+              }
+            }
+            p {margin-top: 4px; font-size: 14px; line-height: 20px; color: rgb(130, 140, 148);}
+            img {width: 40px; height: 40px; position: absolute; bottom: 10px; right: 10px;}
+          }
+        }
+      }
+      .row3 {
+        margin-top: 16px; display: flex;
+        .box5 {
+          width: 367px; height: 143px; background-color: #fff; border: 1px solid #ededed; border-radius: 15px; position: relative;
+          a {
+            display: block; padding: 16px;
+            h1 {
+              font-size: 20px; font-weight: 700; line-height: 28px;
+              span {
+                font-size: 6px; width: 20px; height: 20px; color: #fff; background-color: rgb(255, 119, 119); 
+                border-radius: 10px; padding: 2px 5px; margin-left: 5px; vertical-align: middle;
+              }
+            }
+            p {margin-top: 4px; font-size: 14px; line-height: 20px; color: rgb(130, 140, 148);}
+            img {width: 40px; height: 40px; position: absolute; bottom: 10px; right: 10px;}
+          }
+        }
+        .box6 {
+          width: 367px; height: 143px; background-color: #fff; border: 1px solid #ededed; border-radius: 15px; margin-left: 16px; position: relative;
+          a {
+            display: block; padding: 16px;
+            h1 {
+              font-size: 20px; font-weight: 700; line-height: 28px;
+              span {
+                font-size: 6px; width: 20px; height: 20px; color: #fff; background-color: rgb(255, 119, 119); 
+                border-radius: 10px; padding: 2px 5px; margin-left: 5px; vertical-align: middle;
+              }
+            }
+            p {margin-top: 4px; font-size: 14px; line-height: 20px; color: rgb(130, 140, 148);}
+            img {width: 40px; height: 40px; position: absolute; bottom: 10px; right: 10px;}
+          }
+        }
+      }
+   }
+    #section2 {
+      width: 750px; margin: 0 auto;
+      .s-container {
+        width: 750px; height: 96px; position: relative;
+        .s-view {
+          width: 100%; position: relative; overflow: hidden;
+          .s-wrap {
+            width: calc(100%*8); margin-left: -100%; position: relative; display: flex;
+            .slide {
+              width: 100%; display: flex; justify-content: center; border-radius: 6px; cursor: pointer;
+              img {width: 343px; height: 96px;}
+              &.slide1 {background-color: #008af8;}
+              &.slide2 {background-color: #78160d;}
+              &.slide3 {background-color: #0f2f5c;}
+              &.slide4 {background-color: #f3f1ef;}
+              &.slide5 {background-color: #7e7e7f;}
+              &.slide6 {background-color: #2a6dc6;}
+            }
+          }
+        }
+        .s-prev { 
+          width: 40px; height: 40px; display: block; position: absolute; top: 50%; margin-top: -22px; left: -20px; z-index: 2;
+          img {width: 100%;}
+        }
+        .s-next {
+          width: 40px; height: 40px; display: block; position: absolute; top: 50%; margin-top: -22px; right: -20px; z-index: 2;
+          transform: rotate(180deg);
+          img {width: 100%;}
+        }
+      }
+    }
+  }
+}

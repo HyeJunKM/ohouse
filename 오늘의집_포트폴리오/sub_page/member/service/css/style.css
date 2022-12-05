@@ -1,0 +1,270 @@
+@import url("../../../../css/fonts.css");
+@import url("../../../../css/reset.css");
+@import url("../../../../css/header.css");
+@import url("../../../../css/footer.css");
+#skip {
+  display: none;
+}
+
+#wrap {
+  width: 100%;
+}
+#wrap #header .sub {
+  display: none;
+}
+#wrap #header hr {
+  display: none;
+}
+#wrap #main {
+  width: 100%;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+#wrap #main #section1 {
+  width: 850px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+#wrap #main #section1 .left {
+  width: 427px;
+  height: 348px;
+}
+#wrap #main #section1 .left h2 {
+  width: 100%;
+  height: 28px;
+  margin: 44px 0 20px 0;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+#wrap #main #section1 .left ul {
+  width: 100%;
+}
+#wrap #main #section1 .left ul li {
+  margin-bottom: 16px;
+}
+#wrap #main #section1 .left ul li a {
+  display: block;
+}
+#wrap #main #section1 .left ul li a span {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+#wrap #main #section1 .left ul li a span img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+#wrap #main #section1 .right {
+  width: 423px;
+  height: 316px;
+  padding: 28px 24px;
+  background-color: rgb(247, 249, 250);
+  border-radius: 8px;
+  margin-top: 32px;
+}
+#wrap #main #section1 .right h2 {
+  width: 100%;
+  height: 28px;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+#wrap #main #section1 .right h2 strong {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  color: rgb(53, 197, 240);
+  margin-left: 5px;
+}
+#wrap #main #section1 .right ul {
+  margin-bottom: 28px;
+}
+#wrap #main #section1 .right ul li {
+  font-size: 14px;
+  line-height: 20px;
+  color: #828C94;
+  position: relative;
+  padding-left: 20px;
+}
+#wrap #main #section1 .right ul li::after {
+  content: "";
+  position: absolute;
+  top: 44%;
+  left: 10px;
+  width: 2px;
+  height: 2px;
+  margin: 0px;
+  background: #828C94;
+}
+#wrap #main #section1 .right ul li:last-child:after {
+  content: "";
+  position: absolute;
+  top: 23%;
+  left: 10px;
+  width: 2px;
+  height: 2px;
+  margin: 0px;
+  background: #828C94;
+}
+#wrap #main #section1 .right span {
+  color: rgb(53, 197, 240);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  width: 375px;
+  height: 28px;
+}
+#wrap #main #section1 .right .kakao {
+  width: 375px;
+  height: 44px;
+  padding: 0 16px;
+  background-color: rgb(53, 197, 240);
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid rgb(53, 197, 240);
+  border-radius: 5px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+#wrap #main #section1 .right .kakao:hover {
+  background-color: rgb(57, 171, 205);
+  border: 1px solid rgb(57, 171, 205);
+}
+#wrap #main #section1 .right .email {
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  line-height: 18px;
+}
+#wrap #main #section1 .right .email .email-help {
+  width: 182px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid rgb(53, 197, 240);
+  color: rgb(53, 197, 240);
+  padding: 0px 16px;
+}
+#wrap #main #section1 .right .email .email-help:hover {
+  background-color: rgb(239, 248, 251);
+}
+#wrap #main #section1 .right .email .email-copy {
+  width: 182px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid rgb(218, 221, 224);
+  color: rgb(47, 52, 56);
+  padding: 0px 16px;
+}
+#wrap #main #section1 .right .email .email-copy:hover {
+  background-color: rgb(250, 250, 250);
+}
+#wrap #main #section2 hr {
+  width: 100%;
+  height: 12px;
+  background-color: #F7F9FA;
+  border: 0;
+}
+#wrap #main #section3 {
+  width: 850px;
+  margin: 0 auto;
+}
+#wrap #main #section3 #nav {
+  width: 100%;
+  height: 88px;
+  padding: 40px 24px 0 24px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #main #section3 #nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 46px;
+}
+#wrap #main #section3 #nav > ul > li {
+  margin-right: 6px;
+}
+#wrap #main #section3 #nav > ul > li a {
+  display: block;
+  padding: 7px 14px;
+  color: rgb(47, 52, 56);
+  background-color: rgb(247, 249, 250);
+  border-radius: 20px;
+  cursor: pointer;
+}
+#wrap #main #section3 #nav > ul > li a:hover {
+  background-color: rgb(234, 237, 239);
+  color: rgb(47, 52, 56);
+}
+#wrap #main #section3 #nav > ul > li a.on {
+  background-color: #35C5F0;
+  color: #fff;
+}
+#wrap #main #section3 #nav > ul > li a h4 {
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+#wrap #main #section3 .list-box {
+  width: 850px;
+  padding: 30px 0 60px 0;
+  margin: 0 auto;
+}
+#wrap #main #section3 .list-box .list {
+  width: 100%;
+}
+#wrap #main #section3 .list-box .list .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0;
+  position: relative;
+  cursor: pointer;
+}
+#wrap #main #section3 .list-box .list .title span {
+  width: 850px;
+  font-weight: 700;
+  color: #2F3438;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eaedef;
+}
+#wrap #main #section3 .list-box .list .title span.on {
+  border-bottom: 0;
+}
+#wrap #main #section3 .list-box .list .title span #qna {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+#wrap #main #section3 .list-box .list .title span #more {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 42%;
+  right: 10px;
+  opacity: 0.7;
+}
+#wrap #main #section3 .list-box .list .content {
+  width: 850px;
+  background-color: #F7F9FA;
+  padding: 16px;
+  display: none;
+}
+#wrap #main #section3 .list-box .list .content p {
+  line-height: 150%;
+}
